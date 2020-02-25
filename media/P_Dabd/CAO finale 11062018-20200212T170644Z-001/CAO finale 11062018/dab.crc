@@ -1,0 +1,22 @@
+﻿  MODELE DAB :
+
+
+  1 BOUCLES DE REFERENCE CIRCULAIRE TROUVEES
+
+
+   N° de boucle 1
+
+   Profondeur de la boucle = 4
+
+Numéro de fonction 50 (COURBE, ID = 581)
+  dans le modèle SKELETDAB se refère à:
+
+Numéro de fonction 3 (EXTRUSION_1, ID = 11)
+  dans le modèle VIS_URGENCE_1 doit suivre:
+
+Numéro de fonction 1 (PLAN DE REFERENCE, ID = 1)
+  dans le modèle VIS_URGENCE_1 se refère à:
+
+Numéro de fonction 50 (COURBE, ID = 581)
+  dans le modèle SKELETDAB - cercle fermé.
+
