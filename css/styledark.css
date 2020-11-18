@@ -30,15 +30,32 @@ Modified by Arthur Glaizal (02/2020) https://arthurglaizal.github.io/
 
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,500,600,700);
 
+.iconligne{
+   display: inline-block;
+   width: 45px;
+}
+.iconligne{
+   display: inline-block;
+   width: 85 px;
+}
+
+.imagelangue{
+    position: absolute;
+opacity: 0.9;
+top: 20px; right: 115px;
+}
+
+
 /* General
 ==================================================*/
 
 html,
 body {
     height: 100%;
+    background-color: #202020;
     font-family: 'Poppins', sans-serif;
     line-height: 1.8;
-    color: #999
+    color: #F5F5F5
 }
 
 .no-padding {
@@ -86,13 +103,13 @@ a {
 ==================================================*/
 
 h1 {
-    color: #393939;
+    color: #F5F5F5;
     font-size: 60px;
     text-transform: uppercase;
 }
 
 h3 {
-    color: #393939;
+    color: #F5F5F5;
 }
 
 h5 {
@@ -109,7 +126,7 @@ h5 {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #f5f5f5;
+    background-color: #202020;
     /* change if the mask should be a color other than white */
     z-index: 1000;
     /* makes sure it stays on top */
@@ -244,12 +261,6 @@ h5 {
     text-transform: uppercase;
     font-weight: 700;
     display: none;
-}
-
-.imagelangue{
-    position: absolute;
-opacity: 0.9;
-top: 20px; right: 115px;
 }
 
 .box-primary-nav-trigger .box-menu-icon {
@@ -399,7 +410,7 @@ top: 20px; right: 115px;
     margin: 2.4em 0 .8em;
 }
 
-.box-primary-nav .box {
+.box-primary-nav .box-social {
     display: inline-block;
     margin: 10px .4em;
 }
@@ -410,7 +421,6 @@ top: 20px; right: 115px;
     padding: 0;
     font-size: 30px
 }
-
 
 .box-primary-nav.is-visible {
     -webkit-transform: translateY(0);
@@ -834,7 +844,7 @@ b i:last-child {
 footer {
     padding: 30px 0;
     text-align: center;
-    background: #f5f5f5
+    background: #020202
 }
 
 .copyright {
@@ -899,8 +909,8 @@ footer img {
 .top-bar {
     color: #333;
     padding: 150px 0 150px;
-    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/01.jpg);
-    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/01.jpg);
+    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/02.jpg);
+    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/02.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -1111,7 +1121,7 @@ textarea:focus {
 
 .cat-ul li i {
     margin-right: 10px;
-    color: #3beeff;
+    color:  #3beeff;
 }
 
 
