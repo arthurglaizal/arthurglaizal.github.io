@@ -729,9 +729,9 @@ b i:last-child {
 
 .portfolio .categories-grid .categories ul li a.active {
     margin-left: 0;
-    background-color: #37dded;
+    background-color: #3c3c3c;
     padding: 0px 20px;
-    color: white;
+    color: #ffffff;
     border-radius: 25px;
     text-decoration: none;
 }
